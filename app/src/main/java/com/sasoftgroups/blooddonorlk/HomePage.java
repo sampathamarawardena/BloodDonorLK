@@ -86,28 +86,20 @@ public class HomePage extends AppCompatActivity {
     private void collectPhoneNumbers(Map<String,Object> users) {
         BloodRequestList = (ListView) findViewById(R.id.ListView_RequestList);
 
-        ArrayList<String> phoneNumbers = new ArrayList<>();
+        ArrayList<String> dataList = new ArrayList<>();
         ArrayList<String> BloodType = new ArrayList<>();
 
         //iterate through each user, ignoring their UID
 
         for (Map.Entry<String, Object> entry : users.entrySet()){
-
-            //Get user map
             Map singleUser = (Map) entry.getValue();
-            //Get phone field and append to list
-            phoneNumbers.add((String) singleUser.get("Name") + " looking "  + (String)singleUser.get("blood") + " blood" + " Contact Numbers " + (String)singleUser.get("ContactOne") + " / " + (String)singleUser.get("ContactTwo"));
+            dataList.add((String) "\" " + singleUser.get("blood") + " \" Blood Need, Contact : "  + (String)singleUser.get("Name") +  " - " + (String)singleUser.get("ContactOne") + " / " + (String)singleUser.get("ContactTwo"));
 
         }
 
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, phoneNumbers);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, dataList);
         BloodRequestList.setAdapter(adapter);
         findViewById(R.id.loadingPanel).setVisibility(View.GONE);
-
-       // System.out.println(phoneNumbers.toString());
-       // System.out.println(BloodType.toString());
-
 
     }
 }

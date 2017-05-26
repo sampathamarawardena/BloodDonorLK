@@ -205,7 +205,7 @@
                         android:layout_height="wrap_content"
                         android:background="@android:color/holo_red_light"
                         android:onClick="sendRequest"
-                        android:text="Reqest Blood"
+                        android:text="Request Blood"
                         android:textColor="@android:color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />

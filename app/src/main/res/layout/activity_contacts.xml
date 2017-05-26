@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.sasoftgroups.blooddonorlk.Contacts">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -14,8 +15,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="This Page not implemented"
         android:textColor="@color/colorPrimary"
+        android:text="This Page not implemented"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

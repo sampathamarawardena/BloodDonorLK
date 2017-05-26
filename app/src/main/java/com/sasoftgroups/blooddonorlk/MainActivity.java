@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Click_NewDonate(View view) {
-        Intent intent = new Intent(MainActivity.this, HomePage.class);
+        Intent intent = new Intent(MainActivity.this, RequestBlood.class);
         startActivity(intent);
     }
 

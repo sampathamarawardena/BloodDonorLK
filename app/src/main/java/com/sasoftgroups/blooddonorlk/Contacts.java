@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 public class Contacts extends AppCompatActivity {
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "604911075746",
+    "firebase_url": "https://srilankablood-cad8d.firebaseio.com",
+    "project_id": "srilankablood-cad8d",
+    "storage_bucket": "srilankablood-cad8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604911075746:android:95fa043c54e95167",
+        "android_client_info": {
+          "package_name": "com.sasoftgroups.srilankablood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604911075746-vj6b49r5lcop87n3l3g2ue60vekhe0m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sasoftgroups.srilankablood",
+            "certificate_hash": "4fa2a0a82d1020b1da101615191ac76e27512fba"
+          }
+        },
+        {
+          "client_id": "604911075746-9lpvuvm3cvuoruens5u8ufaohe1lfh57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRZlCIWA8oWgWOQnIiE7t3aVMX5brDZJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604911075746-9lpvuvm3cvuoruens5u8ufaohe1lfh57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604911075746:android:cc5f15472b7c7342",
+        "android_client_info": {
+          "package_name": "com.sasoftgroups.blooddonorlk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604911075746-q6a8b66ljj35m5c3krs72rjmsktekbmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sasoftgroups.blooddonorlk",
+            "certificate_hash": "f9b550e1c61ce9e8c50a91fede9872f90f9ac761"
+          }
+        },
+        {
+          "client_id": "604911075746-9lpvuvm3cvuoruens5u8ufaohe1lfh57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRZlCIWA8oWgWOQnIiE7t3aVMX5brDZJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604911075746-9lpvuvm3cvuoruens5u8ufaohe1lfh57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

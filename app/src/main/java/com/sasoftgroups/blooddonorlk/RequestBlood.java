@@ -5,9 +5,6 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -33,7 +30,6 @@ public class RequestBlood extends AppCompatActivity {
         String Name = ((EditText)findViewById(R.id.txtName)).getText().toString();
         String NumberOne = ((EditText)findViewById(R.id.txtContactNo1)).getText().toString();
         String NumberTwo = ((EditText)findViewById(R.id.txtContactNoTwo)).getText().toString();
-       // String Description = ((EditText)findViewById(R.id.txtDescription)).getText().toString();
 
         try {
             Firebase mRefChild = mref.push();

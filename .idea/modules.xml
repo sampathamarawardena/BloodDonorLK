@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BloodDonor.iml" filepath="$PROJECT_DIR$/BloodDonor.iml" />
       <module fileurl="file://$PROJECT_DIR$/BloodDonorLK.iml" filepath="$PROJECT_DIR$/BloodDonorLK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BloodDonorLK.iml" filepath="$PROJECT_DIR$/BloodDonorLK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
